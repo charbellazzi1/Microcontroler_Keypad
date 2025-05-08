@@ -1,0 +1,80 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu May 08 22:44:39 2025
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x000484
+.config_2007_KEYPAD.1.1.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000245      
+                            0x002007    0x002007      
+            580 out of 8454 program addresses used, program memory utilization is 6%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     ADD1   0x00004b    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD2   0x00004c    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD3   0x00004d    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD4   0x00004e    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+             ASCII_LOOKUP   0x000070    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+               CHANGE_COL   0x000041    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                 CONTINUE   0x000065    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+             DELAY_3.34ms   0x000005    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                   ENDINT   0x00006e    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                      INT   0x000019    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                 KEY_DOWN   0x000029    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL1   0x0000b3    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL2   0x0000f6    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL3   0x000139    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL4   0x00017c    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL5   0x0001bf    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+            LOOKUP_TABLES   0x00004f    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     LOOP   0x000227    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                    LOOP1   0x000008    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                    LOOP2   0x00000b    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     MAIN   0x000202    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              ROTATE_TEMP   0x00000f    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                ROW_CHECK   0x000036    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             DELAY_3.34ms   0x000005    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                    LOOP1   0x000008    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                    LOOP2   0x00000b    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              ROTATE_TEMP   0x00000f    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                      INT   0x000019    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                 KEY_DOWN   0x000029    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                ROW_CHECK   0x000036    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+               CHANGE_COL   0x000041    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD1   0x00004b    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD2   0x00004c    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD3   0x00004d    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     ADD4   0x00004e    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+            LOOKUP_TABLES   0x00004f    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                 CONTINUE   0x000065    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                   ENDINT   0x00006e    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+             ASCII_LOOKUP   0x000070    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL1   0x0000b3    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL2   0x0000f6    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL3   0x000139    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL4   0x00017c    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+              LOOKUP_COL5   0x0001bf    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     MAIN   0x000202    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+                     LOOP   0x000227    program     static C:\Users\charb\OneDrive\Desktop\usek\4-Fourth Year (2024-2025)\Spring Semestre\GEL558 - Microcontroller\Keypad Project\keypad.1.1.asm
+
+
